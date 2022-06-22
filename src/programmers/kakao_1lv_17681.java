@@ -91,6 +91,7 @@ public class kakao_1lv_17681 {
 			result[i] = String.format("%" + n + "s", result[i]);
 			result[i] = result[i].replaceAll("1", "#");
 			result[i] = result[i].replaceAll("0", " ");
+			
 		}
 
 		return result;
