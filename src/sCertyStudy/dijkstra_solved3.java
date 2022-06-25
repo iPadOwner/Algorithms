@@ -9,13 +9,8 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-//[연습P-0012] 파티 참석하기 (다익스트라)
-//파티장에서 각 방으로 가는 정보를 역으로 입력받아서(역방향 간선), 파티장에서부터 시작해서
-//다익스트라를 돌리면, 결국에 오는거리와 동일하게 구할수 있다.
-//인접리스트를 정방향과 역방향 두개
-//본 문제와는 상관이 없지만, 만약 파티장소가 N개라면,
-//모든 파티장과 연결된 가상의 한 방Z를 설정하고(Z에서 각 파티장소까지는 cost는 0),
-//Z를 기준으로 다익스트라를 한번만 돌리면, 각 파티장에서 특정 방까지의 cost를 알 수 있다.-> [사전A-0030]기지국 점검 참고
+
+
 public class dijkstra_solved3 {
 	static class Node implements Comparable<Node>{
 		public int end;
