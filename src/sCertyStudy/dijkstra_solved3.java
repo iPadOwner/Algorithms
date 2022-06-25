@@ -10,6 +10,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 
+
 public class dijkstra_solved3 {
 	static class Node implements Comparable<Node>{
 		public int end;
