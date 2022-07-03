@@ -13,6 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
+//this is from feature8
 //https://programmers.co.kr/learn/courses/30/lessons/92341
 public class kakao_2lv_92341 {
 
